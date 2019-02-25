@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src: url(../fonts/subset-FiraSans-Medium.woff),
+  url(../fonts/subset-FiraSans-Medium.woff2);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/subset-Roboto-Regular.woff),
+  url(../fonts/subset-Roboto-Regular.woff2);
+  font-style: normal;
+}
+
+body {
+  background-color: #ede9e0;
+}
+.wrapper {
+  width: 1024px;
+  background-image: url(../images/dog.png);
+  background-repeat: no-repeat;
+  background-size: auto; 
+  margin: 0 auto;
+}
+.container {
+  width: 940px;
+  vertical-align: top;
+}
+.logo_img {
+  display: inline-block;
+}
+.nav_menu {
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 0;
+  vertical-align: top;
+  margin-top: 20px;
+  margin-bottom: 130px;
+  margin-left: 146px;
+}
+.menu_list {
+  list-style: none;
+}
+.menu_item {
+  display: inline-block;
+  margin-left: 30px;
+}
+.menu_link {
+  display: inline-block;
+  font-size: 14px;
+  color: #202020;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+.logo_phone {
+  display: inline-block;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #510fad;
+  font-family: 'Fira Sans';
+  font-size: 14px;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.promo_heading {
+  margin-left: 320px;
+  margin-right: 100px;
+}
+.promo_title{
+  color: #202020;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-size: 48px;
+  font-style: normal;
+}
+.promo_uppertext {
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  color: #737274;
+  text-transform: uppercase;
+}
+.about {
+  background-color: #510fad;
+  width: 940px;
+  height: 600px;
+  margin-top: 200px;
+}
+.about_heading {
+  padding-top: 50px;  
+  margin: 50px;
+  text-align: left;
+  margin-left: 350px;
+  margin-right: 250px;
+}
+.about_title {
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+  color: #ede9e0;
+}
+.about_title_text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  color: #b8adc8;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.about_content {
+  margin-left: 50px;
+  display: inline-block;
+}
+.about_img {
+  display: inline-block;
+  width: 50%;
+  border-radius: 10px;
+}
+.about_menu {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  line-height: 30px;
+}
+.about_item {
+  color: #ede9e0;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+}
+.about_link {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 16px;
+  color: #ffec00;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+.title {
+  color: #202020;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-size: 36px;
+  font-style: normal;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.breeds_list {
+  display: inline-block;
+  font-size: 0px;
+}
+.breeds_item {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px
+}
+.breeds_item_title {
+  font-size: 24px;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-style: normal;
+  color: #202020;
+}
+.breed_img {
+  border-radius: 50%;
+}
+.breeds_item_content {
+  display: inline-block;
+  width: 280px;
+  font-size: 16px;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.breed_text {
+  color: #737274;
+  text-align: justify;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-bottom: 50px;
+  line-height: 30px;
+  margin-top: 0;
+  text-align: left;
+  font-weight: bold;
+}
+.breed_link {
+  text-decoration: none;
+  color: #510fad;
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+}
