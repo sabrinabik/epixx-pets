@@ -25,6 +25,8 @@ body {
 .container {
   width: 940px;
   vertical-align: top;
+  margin: 0 auto;
+  font-size: 0;
 }
 .logo_img {
   display: inline-block;
@@ -35,7 +37,6 @@ body {
   font-size: 0;
   vertical-align: top;
   margin-top: 20px;
-  margin-bottom: 130px;
   margin-left: 146px;
 }
 .menu_list {
@@ -47,102 +48,117 @@ body {
 }
 .menu_link {
   display: inline-block;
-  font-size: 14px;
-  color: #202020;
-  font-family: 'Fira Sans';
-  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 16px;
   font-style: normal;
+  line-height: 30px;
+  color: #202020;
   text-decoration: none;
+}
+.menu_link:hover {
+  color: #510fad;
 }
 .logo_phone {
   display: inline-block;
-  margin-left: 30px;
-  text-decoration: none;
-  color: #510fad;
-  font-family: 'Fira Sans';
-  font-size: 14px;
   vertical-align: top;
+  margin-left: 20px;
   margin-top: 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 30px;
+  color: #510fad;
+  text-decoration: none;
 }
 .promo_heading {
   margin-left: 320px;
-  margin-right: 100px;
+  margin-right: 110px;
+  margin-top: 130px;
 }
 .promo_title{
   color: #202020;
   font-family: 'Fira Sans';
   font-weight: 500;
   font-size: 48px;
-  font-style: normal;
+  line-height: 60px;
 }
 .promo_uppertext {
-  font-family: 'Fira Sans';
-  font-weight: 500;
-  font-size: 16px;
-  font-style: normal;
+  margin-top: 50px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
   color: #737274;
   text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.05em;
 }
 .about {
   background-color: #510fad;
-  width: 940px;
-  height: 600px;
+  width: 100%;
+  min-height: 700px;
   margin-top: 200px;
 }
 .about_heading {
   padding-top: 50px;  
-  margin: 50px;
   text-align: left;
-  margin-left: 350px;
-  margin-right: 250px;
+  margin-left: 320px;
+  width: 38%;
 }
 .about_title {
+  margin-top: 100px;
   font-family: 'Fira Sans';
   font-weight: 500;
-  font-size: 24px;
+  font-size: 36px;
   font-style: normal;
+  line-height: 20px;
+  letter-spacing: 0.05em;
   color: #ede9e0;
 }
 .about_title_text {
   font-family: 'Roboto';
-  font-size: 14px;
-  font-style: normal;
+  font-size: 16px;
   color: #b8adc8;
   line-height: 30px;
-  letter-spacing: 0.5px;
   text-align: left;
 }
 .about_content {
-  margin-left: 50px;
   display: inline-block;
+  margin-top: 50px;
+  width: 100%;
 }
 .about_img {
   display: inline-block;
   width: 50%;
   border-radius: 10px;
+  box-shadow: 0 0 50px #202020; 
 }
 .about_menu {
   display: inline-block;
-  width: 45%;
+  width: 50%;
   vertical-align: top;
-  line-height: 30px;
+  margin-top: 30px;
 }
 .about_item {
   color: #ede9e0;
   font-family: 'Roboto';
-  font-size: 14px;
-  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .about_link {
   display: inline-block;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 80px;
+  margin-left: 20px;
   font-size: 16px;
   color: #ffec00;
   font-family: 'Fira Sans';
-  font-weight: 500;
-  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.05em;
   text-decoration: none;
+}
+.about_link:hover {
+  color: #b8adc8;
+}
+.breeds {
+  margin-top: 200px;
 }
 .title {
   color: #202020;
@@ -150,24 +166,25 @@ body {
   font-weight: 500;
   font-size: 36px;
   font-style: normal;
-  margin-top: 100px;
-  margin-bottom: 50px;
   text-align: center;
 }
 .breeds_list {
   display: inline-block;
   font-size: 0px;
+  padding: 0;
 }
 .breeds_item {
   display: inline-block;
   width: 50%;
-  font-size: 16px
+  margin: 30px 0;
+  font-size: 16px;
 }
 .breeds_item_title {
   font-size: 24px;
   font-family: 'Fira Sans';
-  font-weight: 500;
-  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.05em;
   color: #202020;
 }
 .breed_img {
@@ -175,27 +192,236 @@ body {
 }
 .breeds_item_content {
   display: inline-block;
-  width: 280px;
-  font-size: 16px;
+  width: 300px;
   vertical-align: top;
-  margin-left: 20px;
+  padding: 0 10px;
 }
 .breed_text {
-  color: #737274;
-  text-align: justify;
   font-family: 'Roboto';
-  font-size: 14px;
-  margin-bottom: 50px;
+  font-size: 16px;
+  color: #737274;
   line-height: 30px;
-  margin-top: 0;
   text-align: left;
-  font-weight: bold;
+  margin-bottom: 30px;
 }
-.breed_link {
+.breed_link { 
   text-decoration: none;
   color: #510fad;
   font-family: 'Fira Sans';
   font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
+}
+.breed_link:hover {
+  color: #737274;
+}
+.review {
+  margin-top: 120px;
+  text-align: left;
+}
+.review_content {
+  display: inline-block;
+  width: 50%;
+  margin-top: 50px;
+}
+.review_heading {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-family: 'Fira Sans';
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #202020;
+}
+.review_time {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 16px;
+  color: #737274;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+.review_text {
+  font-family: 'Roboto';
+  line-height: 30px;
+  font-size: 16px;
+  color: #202020;
+}
+.review_photo {
+  display: inline-block;
+  width: 50%;
+  margin-top: 50px;
+  vertical-align: top;
+}
+.review_img {
+  border-radius: 10px;
+  margin-left: 20px;
+  box-shadow: 0 0 30px #202020;
+}
+.review_link {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 16px;
+  color: #737274;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+.review_link_vk {
+  text-decoration: none;
+}
+.review_link_vk:hover {
+  color: #737274;
+}
+.blog {
+  background-color: #510fad;
+  margin-top: 200px;
+  min-height: 500px;
+}
+.blog_content {
+  display: inline-block;
+  width: 50%;
+  margin-top: 100px;
+  font-size: 16px;
+}
+.blog_title {
+  text-align: left;
+  font-family: 'Fira Sans';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  //color: #ede9e0;
+  color: #fff;
+}
+.blog_text {
+  padding-right: 20px;
+  font-family: 'Roboto';
+  line-height: 30px;
+  font-size: 16px;
+  color: #b8adc8;
+}
+.social_media_list {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0;
+}
+.social_media_item {
+  display: inline-block;
+}
+.social_media_item:hover {
+  
+}
+.blog_cards {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+  width: 50%;
+}
+.blog_card {
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 15px;
+  background-color: #fff;
+  min-height: 300px;
+  padding: 0;
+  width: 220px;
+}
+.blog_card:hover {
+  box-shadow: 0 0 30px #202020;
+}
+.card_img {
+ width: 100%;
+ border-radius: 10px 10px 0 0;
+}
+.blog_card_text {
+  margin: 20px 10px 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #202020;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+}
+.blog_card_link {
+  margin-left: 10px;
+  font-family: 'Fira Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #510fad;
+  text-decoration: none;
+}
+.contacts {
+  margin-top: 150px;
+}
+.title_contacts {
+  text-align: left;
+}
+.footer_container{
+  margin-left: -42px;
+  margin-right: -42px;
+}
+.contacts_content {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+.contacts_title {
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  color: #737274;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.contacts_text {
+  height: 50%;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  color: #202020;
+  line-height: 30px;
+}
+.contacts_link {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #202020;
+  line-height: 30px;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 100px;
+  border-top: 1px solid #737274;
+  margin-bottom: 100px;
+}
+.footer_menu_item{
+  display: inline-block;
+  margin-left: 30px;
+}
+.footer_menu_list {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: -30px;  
+  padding: 0;
+  width: 90%;
+}
+.footer_menu_link { 
+  display: inline-block;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #737274;
+  line-height: 30px;
+  text-decoration: none;
+}
+.social_media_footer {
+  display: inline-block; 
+  margin-left: 12px
+}
+.social_media_item_footer {
+  display: inline-block;
 }
